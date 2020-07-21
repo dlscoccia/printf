@@ -9,7 +9,7 @@ int print_rev(char *s)
 	int i = 0;
 	int lenght;
 
-	for (; s[i + 1]; i++)
+	for (; s[i + 1] != '\0'; i++) /* go to the end of the string - counts lenght */
 	{
 		lenght = lenght + 1;
 	}

@@ -16,7 +16,7 @@ int _printf(const char *format, ...)
 		{"c", print_character},
 		{"s", print_string},
 		{"u", print_unsigned},
-		{"r", print_string_rev},
+//		{"r", print_string_rev},
 		{"R", print_rot13},
 		{NULL, NULL}
 	};

@@ -1,9 +1,11 @@
 #include "holberton.h"
+
 /**
  * print_string_rev - prints a string in reverse
  * @list: pointer to string to reverse an print
  * Return: number of character printed
 **/
+/*
 int print_string_rev(va_list list)
 {
 	int i = 0;
@@ -30,7 +32,7 @@ int print_string_rev(va_list list)
  * @s: pointer of the string to code
  * Return: number of elements printed
  **/
-
+/*
 char *rev_string(char *s)
 {
 	int lenght;
@@ -39,7 +41,7 @@ char *rev_string(char *s)
 	char *dest;
 
 	for (lenght = 0; s[lenght] != '\0'; lenght++) /* for lenght */
-
+/*
 	dest = malloc(sizeof(char) * lenght + 1);
 	if (dest == NULL)
 		return (NULL);
@@ -56,7 +58,7 @@ char *rev_string(char *s)
 	}
 	return (dest);
 }
-
+*/
 /**
  * print_rot13 - prints string into code rot13
  * @list: pointer of the string to code

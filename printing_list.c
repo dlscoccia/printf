@@ -52,3 +52,17 @@ int print_integer(va_list list)
 	num_length = print_number(list);
 	return (num_length);
 }
+
+int print_unsigned(va_list list)
+{
+	unsigned int num_lenght;
+
+	num_lenght = va_arg(list, unsigned int);
+	if (num_lenght == 0)
+		return(print_number_un(num_lenght));
+	if (num_lenght < 1)
+		return(-1);
+	return(print_number_un(num_lenght));
+	return (num_lenght);
+
+}

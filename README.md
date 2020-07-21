@@ -1,4 +1,4 @@
-# _printf funtion 
+# _printf funtion
 ## Recreate a printf() funtion in c.
 The printf function creates an output of a character string in
 accordance to a specific format. If the function is successful it will
@@ -23,7 +23,7 @@ Function explains the characteristics of the printf function of the programming 
 This function is called if %i is found in the string and it prints an integer
 
 ## printing_list.c
-This file groups a set of functions that allows %s %c %% %i %d changed 
+This file groups a set of functions that allows %s %c %% %i %d changed
 ## put_char.c
 This function allows us to print characters using the write processor call.
 
@@ -32,7 +32,4 @@ This function processes all the changes that must be done for the placed holders
 
 -------------------------------------------------------------------------------------
 ## Authors
-#### Daniel Lorenzo and Esteban Martinez  
-
-
-
+#### Daniel Lorenzo and Esteban Martinez

@@ -35,6 +35,11 @@ int print_number(va_list args)
 	return (len);
 }
 
+/**
+ * print_number_un - prints unsigned numbers
+ * @n: number to print
+ * Return: numbers of printed chars
+ **/
 int print_number_un(unsigned int n)
 {
 	int div;

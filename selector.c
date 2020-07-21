@@ -6,7 +6,7 @@
  * @format: identifier char
  * Return: numbers chars printed
  **/
-int selector(char *format, conver_struct print_list[], va_list arg_list)
+int selector(const char *format, conver_struct print_list[], va_list arg_list)
 {
 	int i, j;
 	int validator, num_chars;
@@ -16,7 +16,7 @@ int selector(char *format, conver_struct print_list[], va_list arg_list)
 	{
 		if (format[i] == '%') /*Checking for format specifier*/
 		{
-                       /* loop for struct to check function to use*/
+/* loop for struct to check function to use*/
 			for (j = 0; print_list[j].sym != NULL; j++)
 			{
 				if (format[i + 1] == print_list[j].sym[0])

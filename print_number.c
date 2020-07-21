@@ -34,30 +34,3 @@ int print_number(va_list args)
 	}
 	return (len);
 }
-
-/**
- * print_number_un - prints unsigned numbers
- * @n: number to print
- * Return: numbers of printed chars
- **/
-int print_number_un(unsigned int n)
-{
-	int div;
-	int lenght;
-	unsigned int num;
-
-	div = 1;
-	lenght = 0;
-
-	num = n;
-
-	for (; num / div > 9; )
-		div = div * 10;
-	for (; div != 0; )
-	{
-		lenght += put_char('0' + num / div);
-		num = num % div;
-		div = div / 10;
-	}
-	return (lenght);
-}

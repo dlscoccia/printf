@@ -1,6 +1,4 @@
-[![N|Solid](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/holberton-logo.png)
 # _printf funtion 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 ## Recreate a printf() funtion in c.
 The printf function creates an output of a character string in
 accordance to a specific format. If the function is successful it will

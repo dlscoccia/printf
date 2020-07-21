@@ -4,12 +4,16 @@
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdarg.h>
-
-
+/**
+ * struct conversion - This struct content.
+ *@sym: Firts Element
+ *@f: Second Element
+ *
+ */
 struct conversion
 {
-        char *sym;
-        int (*f)(va_list);
+	char *sym;
+	int (*f)(va_list);
 };
 typedef struct conversion conver_struct;
 

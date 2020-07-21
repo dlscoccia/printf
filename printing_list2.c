@@ -1,15 +1,20 @@
 #include "holberton.h"
 /**
- * print_rev - prints a string in reverse
- * @s: pointer to string to reverse an print
+ * print_string_rev - prints a string in reverse
+ * @list: pointer to string to reverse an print
  * Return: number of character printed
 **/
-int print_rev(char *s)
+int print_string_rev(va_list list)
 {
 	int i = 0;
 	int lenght;
+	char *s;
 
-	for (; s[i + 1] != '\0'; i++) /* go to the end of the string - counts lenght */
+	s = va_arg(list, char *);
+
+	if (s == '\0')
+		s = "(null)";
+	for (; s[i + 1] != '\0'; i++) /* go to the end of string - counts len */
 	{
 		lenght = lenght + 1;
 	}
@@ -21,11 +26,12 @@ int print_rev(char *s)
 
 /**
  * rot13 - prints string into code rot13
- * @s: pointer of the string to code
+ * @list: pointer of the string to code
  * Return: number of elements printed
  **/
-char *rot13(char *s)
+char *rot13(va_list list)
 {
+	char *s;
 	int i, j;
 	char in[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char out[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";

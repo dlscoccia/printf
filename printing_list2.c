@@ -41,9 +41,9 @@ int _binary_numbers(va_list list)
 {	int i = 0, j, n = 0, m = 0, num;
 	int binary[100];
 
+	num = va_arg(list, int);
 	if (num == '\0')
 		return (-1);
-	num = va_arg(list, int);
 	m = num;
 	if (num >= 0)
 	{

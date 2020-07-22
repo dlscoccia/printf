@@ -15,6 +15,9 @@ int _printf(const char *format, ...)
 		{"i", print_integer},
 		{"c", print_character},
 		{"s", print_string},
+		{"R", print_rot13},
+/*		{"r", print_string_rev}, */
+/*		{"b", print_binary}, */
 		{NULL, NULL}
 	};
 

@@ -10,20 +10,12 @@ int _printf(const char *format, ...)
 	int printed_chars;
 
 	conver_struct print_list[] = {
-		{"%", print_percent},
-		{"d", print_integer},
-		{"i", print_integer},
-		{"c", print_character},
-<<<<<<< HEAD
-	//	{"s", print_string},
-		{"b", _binary_numbers}, 
-	//	{"u", print_unsigned},
-	//	{"R", print_rot13}, 
-=======
-		{"s", print_string},
-		{"R", print_rot13},
-		{"b", _binary_numbers},
->>>>>>> b10fdff002fe6ed2cca3306c49694a15ae995377
+		{"%", prints_percent},
+		{"d", prints_numbers},
+		{"i", prints_numbers},
+		{"c", prints_character},
+		{"s", prints_string},
+		{"R", prints_rot13},
 		{NULL, NULL}
 	};
 

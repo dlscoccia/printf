@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-ssdd
+
+
 =======
 [![N|Solid](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/holberton-logo.png)
 # _printf funtion
@@ -15,10 +15,12 @@ will occur.
 
  ------------------------------------------------------------------------------------
 ### Requirements:
+
 Files should be compiled with gcc 4.8.4
 No more than 5 functions per file
 Files should end with a new line
 No global variables allowed
+
  ------------------------------------------------------------------------------------
 ### Algorithm
 
@@ -26,13 +28,13 @@ No global variables allowed
 -------------------------------------------------------------------------------------
 ## holberton.h
 header file in which we find the functions used and another the structure used.
+
 ## _printf.c
 Function explains the characteristics of the printf function of the programming language.
-## print_number.c
-This function is called if %i is found in the string and it prints an integer
 
-## printing_list.c
+## 1printing_list.c
 This file groups a set of functions that allows %s %c %% %i %d changed
+
 ## put_char.c
 This function allows us to print characters using the write processor call.
 
@@ -43,4 +45,4 @@ This function processes all the changes that must be done for the placed holders
 
 ## Authors
 #### Daniel Lorenzo and Esteban Martinez
->>>>>>> dd0c3a048cd2781e96fa7de94750b88f96203c5e
+

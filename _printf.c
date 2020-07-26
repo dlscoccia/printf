@@ -14,10 +14,16 @@ int _printf(const char *format, ...)
 		{"d", print_integer},
 		{"i", print_integer},
 		{"c", print_character},
+<<<<<<< HEAD
 	//	{"s", print_string},
 		{"b", _binary_numbers}, 
 	//	{"u", print_unsigned},
 	//	{"R", print_rot13}, 
+=======
+		{"s", print_string},
+		{"R", print_rot13},
+		{"b", _binary_numbers},
+>>>>>>> b10fdff002fe6ed2cca3306c49694a15ae995377
 		{NULL, NULL}
 	};
 

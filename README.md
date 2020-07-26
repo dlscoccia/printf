@@ -20,6 +20,10 @@ No more than 5 functions per file
 Files should end with a new line
 No global variables allowed
  ------------------------------------------------------------------------------------
+### Algorithm
+
+[![N|Solid](https://i.ibb.co/vVZGHhm/dagrama.jpg)](https://i.ibb.co/vVZGHhm/dagrama.jpg)
+-------------------------------------------------------------------------------------
 ## holberton.h
 header file in which we find the functions used and another the structure used.
 ## _printf.c
@@ -36,6 +40,7 @@ This function allows us to print characters using the write processor call.
 This function processes all the changes that must be done for the placed holders
 
 -------------------------------------------------------------------------------------
+
 ## Authors
 #### Daniel Lorenzo and Esteban Martinez
 >>>>>>> dd0c3a048cd2781e96fa7de94750b88f96203c5e

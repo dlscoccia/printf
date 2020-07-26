@@ -16,7 +16,7 @@ int print_character(va_list list)
  *
  *Return: 1
  */
-int print_string(va_list list)
+/*int print_string(va_list list)
 {
 	int i;
 	char *str;

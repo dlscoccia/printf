@@ -25,5 +25,7 @@ int print_string(va_list);
 int print_percent(va_list);
 int print_integer(va_list);
 int print_number(va_list);
+int print_rot13(va_list);
+int _binary_numbers(va_list);
 
 #endif /* _PRINT_F_ */

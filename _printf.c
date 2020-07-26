@@ -14,12 +14,10 @@ int _printf(const char *format, ...)
 		{"d", print_integer},
 		{"i", print_integer},
 		{"c", print_character},
-		{"s", print_string},
-/*		{"b", print_binary}, */
-		{"u", print_unsigned},
-/*		{"r", print_string_rev},
-		{"R", print_rot13}, */
->>>>>>> 6470b3b057222587e7d640f454053b083710566e
+	//	{"s", print_string},
+		{"b", _binary_numbers}, 
+	//	{"u", print_unsigned},
+	//	{"R", print_rot13}, 
 		{NULL, NULL}
 	};
 

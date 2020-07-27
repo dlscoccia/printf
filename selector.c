@@ -9,17 +9,17 @@
 int selector(const char *format, conver_struct print_list[], va_list arg_list)
 {
 	int i, j;
-	int validator, num_chars;
-/*i, j iterators, validator true/false, num return n number of char printed*/
-	num_chars = 0;
-	for (i = 0; format[i] != '\0'; i++)/* loop for the main str*/
+	int validator = 0, num_chars = 0;
+/* i, j iterators, validator true/false, num return n number of char printed */
+	for (i = 0; format[i] != '\0'; i++)
+		/* loop for the main str*/
 	{
 		if (format[i] == '%') /*Checking for format specifier*/
 		{
 /* loop for struct to check function to use*/
-			for (j = 0; print_list[j].sym != NULL; j++)
+			for (j = 0; print_list[j].spec != NULL; j++)
 			{
-				if (format[i + 1] == print_list[j].sym[0])
+				if (format[i + 1] == print_list[j].spec[0])
 				{
 					validator = print_list[j].f(arg_list);
 					if (validator == -1)
@@ -28,7 +28,7 @@ int selector(const char *format, conver_struct print_list[], va_list arg_list)
 					break;
 				}
 			}
-			if (print_list[j].sym == NULL && format[i + 1] != ' ')
+			if (print_list[j].spec == NULL && format[i + 1] != ' ')
 			{
 				if (format[i + 1] != '\0')
 				{

@@ -1,6 +1,6 @@
 
 
-=======
+
 [![N|Solid](https://www.holbertonschool.com/holberton-logo.png)](https://www.holbertonschool.com/holberton-logo.png)
 # _printf funtion
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
